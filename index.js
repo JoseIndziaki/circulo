@@ -33,7 +33,7 @@ function separar(num){
         var textNode = document.createTextNode("Y todo se refuerza y soporta con");
         newText.appendChild(textNode);
         if(num == 4)document.getElementById("g5").appendChild(newText);
-        contenido = "<h2>Lo que sucede alrededor del aula</h2><img src='https://raw.githubusercontent.com/JoseIndziaki/nova-nuevo/master/img/alumno/a3.png'>"
+        contenido = "<h2>Lo que sucede alrededor del aula</h2><a href='http://anahuac.blackboard.com/webapps/blackboard/content/launchLink.jsp?course_id=_91308_1&amp;toc_id=_163765_1&amp;mode=cpview&amp;mode=reset'><table><tbody><tr><th></th><th style='background:#008005'>Motivación</th><th style='background:#09A900'>Capacidad</th></tr><tr><th style='background:#548000'><b>Personal<b></b></b></th><td>Hacer <b>deseable</b> lo indeseable</td><td><b>Superar</b> tus límites</td></tr><tr><th style='background:#1E6701'><b>Social</b></th> <td><b>Aprovechar</b> la presión del grupo</td><td>Encontrar <b>fortaleza</b> en los números</td></tr><tr><th style='background:#064E13'><b>Estructural</b></th> <td>Diseñar <b>Recompensas</b> y demandar <b>Responsabilidad</b></td><td><b>Cambiar</b> el ambiente</td></tr></tbody></table></a>"
         if(num == 4)$("#contenido").html(contenido);
         if(num == 4)$("button").html("INICIAR");
     }   
@@ -46,7 +46,7 @@ function separar(num){
         var textNode = document.createTextNode("Se ejecuta con");
         newText.appendChild(textNode);
         if(num == 3)document.getElementById("g5").appendChild(newText);
-        contenido = "<h2>Lo que sucede en aula</h2><img src='http://rawgit.com/JoseIndziaki/nova-nuevo/master/img/alumno/metacognicion.png'>"
+        contenido = "<h2>Lo que sucede en aula</h2><img src='http://rawgit.com/JoseIndziaki/circulo/master/d.png'><img src='http://rawgit.com/JoseIndziaki/circulo/master/e.png'><img src='http://rawgit.com/JoseIndziaki/circulo/master/f.png'>"
         if(num == 3)$("#contenido").html(contenido);
     }
     if(num<3){
@@ -58,12 +58,12 @@ function separar(num){
         var textNode = document.createTextNode("Se plasma y concreta en el");
         newText.appendChild(textNode);
         if(num == 2)document.getElementById("g5").appendChild(newText);
-        contenido = "<h2>Modelo Educativo</h2><img style='width:200px' src='http://rawgit.com/JoseIndziaki/nova-nuevo/master/img/modelo.svg'>"
+        contenido = "<h2>Modelo Educativo</h2><img style='width:400px' src='http://rawgit.com/JoseIndziaki/nova-nuevo/master/img/modelo.svg'>"
         if(num == 2) $("#contenido").html(contenido);
     }
     if(num<2){
         $("#g5").css("-webkit-transform",h);
-        contenido = "<h2>Carácter + Competencia + Valores</h2><img src='https://raw.githubusercontent.com/JoseIndziaki/nova-nuevo/master/img/alumno/a3.png'><img src='http://rawgit.com/JoseIndziaki/nova-nuevo/master/img/comp3.svg'>"
+        contenido = "<h2>Carácter + Competencia + Valores</h2><img src='http://rawgit.com/JoseIndziaki/circulo/master/a.png'><img src='http://rawgit.com/JoseIndziaki/circulo/master/b.png'><img src='http://rawgit.com/JoseIndziaki/circulo/master/c.png'>"
         $("#contenido").html(contenido);
     }
     $("#contenido").fadeIn(500);

@@ -36,6 +36,7 @@ svg{
 }
 .mensaje img{
 	width: 150px;
+	padding: 50px;
 }
 html, body{
 	height: 100%;
@@ -75,11 +76,26 @@ button{
     cursor: pointer;
     font-size: 20px;
 }
-.st50, .st47{
-	fill: transparent !important;
-}
 footer{
 	padding: 50px 100px;
     overflow: hidden;
     clear: both;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tr:nth-of-type(odd) {
+    background: #FAFAFA;
+}
+tr {
+    background: #F4F4F4;
+}
+th {
+    color: #FFF;
+    background: #F9F9F9;
+    padding: 15px;
+}
+td {
+    padding: 35px;
 }
