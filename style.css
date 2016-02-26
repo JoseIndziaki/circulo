@@ -1,0 +1,85 @@
+*{
+	-webkit-transition: all 2s; /* Safari */
+    transition: all 1s;
+    font-family: Arial;
+}
+#contenido{
+	-webkit-transition: all 0s; /* Safari */
+    transition: all 0s;
+}
+svg{
+	padding-top: 26%;
+    height: 372px;
+}
+.caja{
+	width: 100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+	align-items: center;
+	height: 100%;
+}
+#info, svg{
+	-webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */    
+    flex: 1;
+}
+#info{
+	justify-content: center;
+	height: 100%;
+}
+.mensaje{
+	padding: 20px;
+	height: 100%;
+	margin: 20px;
+	border-radius: 2px;
+	text-align: center;
+}
+.mensaje img{
+	width: 150px;
+}
+html, body{
+	height: 100%;
+	margin: 0;
+	color: #535353;
+}
+html{
+	background-image: url('http://anahuacoaxaca.edu.mx/images/entramado.png');
+}
+img{
+	width: 100px;
+}
+text{
+	font-size: 20px;
+	font-weight: bold;
+}
+.container{
+	line-height: 30px;
+    text-align: center;
+    width: 50%;
+    float: left;
+    color: #353535;
+    font-weight: bolder;
+}
+#contenido{
+	overflow: hidden;
+	height: 75%;
+}
+button{
+	clear: both;
+    max-width: 100%;
+    padding: 10px 20px;
+    background: #F49800;
+    color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.st50, .st47{
+	fill: transparent !important;
+}
+footer{
+	padding: 50px 100px;
+    overflow: hidden;
+    clear: both;
+}
