@@ -14,7 +14,7 @@ $(function(){
       window.location = "http://anahuac.blackboard.com/webapps/blackboard/content/launchLink.jsp?course_id=_91308_1&toc_id=_151685_1&mode=cpview&mode=reset";
     });
     $("#g5").click(function() {
-      window.location = "http://anahuac.blackboard.com/webapps/blackboard/content/launchLink.jsp?course_id=_91308_1&toc_id=_163762_1&mode=cpview&mode=reset";
+      window.location = "http://anahuac.blackboard.com/webapps/blackboard/content/listContent.jsp?course_id=_91308_1&content_id=_564683_1";
     });
 });
 function separar(num){
